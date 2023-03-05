@@ -6,15 +6,19 @@ import random
 References
 - https://github.com/infusion/Polynomial.js/blob/master/polynomial.js
 - https://github.com/DmitryNakhimovich/Polynomial-class/blob/master/polynom.py
+- https://realpython.com/python-multiple-constructors/#providing-multiple-constructors-with-singledispatchmethod
+- https://github.com/qzmech/polynomial/blob/ab8dfd046f251665f0240da2cde7eabe6df444c9/polynomial.py#L356
 """
 
 class Polynomial:
-    """ Represents polynomilas fomr manipulation"""
+
     def __init__(self, args) -> None:
         """" 
         Build a polynomial from a list of coefficients in 
         descending order or list of tuples in the form (coefficient, exponent)
         """ 
+
+        self.coeffs = 
         print(type(args), type(args[0]), args)
 
     def from_string(self, expression: str):
